@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(41, 207, 207);
+}
+
+.container button{
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #2275c9;
+    cursor: pointer;
+    color: #fff;
+}
